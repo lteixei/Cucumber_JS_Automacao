@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "página-inicial;abrir-página-inicial",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Abrir página inicial",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a página inicial",
+            "match": {
+              "location": "src\\steps\\exampleSteps.js.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5263200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico no menu Products",
+            "match": {
+              "location": "src\\steps\\exampleSteps.js.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 562799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo ver o texto \"AutomationExercise\"",
+            "match": {
+              "location": "src\\steps\\exampleSteps.js.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1214100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "página-inicial",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Página Inicial",
+    "tags": [],
+    "uri": "features\\example.feature"
+  }
+]
