@@ -142,4 +142,5 @@ Contribuições são bem-vindas!
 Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exemplos de integração.
 
 ## 📄 Licença
+
 Este projeto está licenciado sob a MIT License.
