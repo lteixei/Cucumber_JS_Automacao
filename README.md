@@ -149,7 +149,7 @@ npx cucumber-js
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas!
+Contribuições são bem-vindas!  
 Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exemplos de integração.
 
 ---
@@ -174,6 +174,3 @@ Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exempl
 ## 📝 Licença
 
 - Este projeto está licenciado sob a MIT License.
-
-
-
