@@ -128,19 +128,39 @@ Usar tags	Executar testes específicos (@login) ou grupos de testes
 Integrar com CI/CD	Automação completa e relatórios automáticos
 ## 🔮 Funcionalidades Avançadas
 
-✅ Hooks: @Before e @After para setup e teardown
+✅ Hooks: @Before e @After para setup e teardown;  
+✅ Paralelização de testes com Maven ou Cucumber CLI;  
+✅ Gerar relatórios em HTML ou JSON para análise detalhada;  
+✅ Integração com Selenium, Playwright ou Appium.  
 
-✅ Paralelização de testes com Maven ou Cucumber CLI
-
-✅ Gerar relatórios em HTML ou JSON para análise detalhada
-
-✅ Integração com Selenium, Playwright ou Appium
+---
 
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas!
 Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exemplos de integração.
 
-## 📄 Licença
+---
 
-Este projeto está licenciado sob a MIT License.
+## 🤝 Boas práticas para contribuições:  
+📌 Escreva código limpo, legível e documentado.  
+📌 Teste suas mudanças antes de enviar o Pull Request.  
+📌 Mantenha a consistência com o estilo e padrões do projeto.  
+📌 Discuta melhorias ou dúvidas antes de implementar grandes mudanças.
+
+---
+
+## 👩‍💻 Contato
+- Informações	
+- Nome	Leonardo da Motta Teixeira  
+- Cargo	QA Engineer / Gestor / Tester-Sênior  
+- LinkedIn	www.linkedin.com/in/leonardo-da-motta-teixeira-3584734b  
+- E-mail	lteixei@hotmail.com  
+
+---
+
+## 📝 Licença
+
+- Este projeto está licenciado sob a MIT License.
+
+
