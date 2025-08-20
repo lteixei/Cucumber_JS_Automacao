@@ -39,17 +39,17 @@ O objetivo é fornecer uma referência prática e organizada para criar testes a
 
 ## 📦 Instalação (Java + Maven)
 
-```bash
-# Clonar repositório
+### Clonar repositório
 git clone https://github.com/seu-usuario/seu-projeto.git
 cd seu-projeto
 
-# Instalar dependências
+### Instalar dependências
 mvn clean install
 
-# Executar testes
+### Executar testes
 mvn test
 
+---
 
 ## 🏗 Estrutura de Projeto Recomendada
 📦 cucumber-automation/
@@ -66,6 +66,8 @@ mvn test
 ├── pom.xml                       # Dependências Maven
 └── README.md
 
+---
+
 ## 📄 Estrutura de um Cenário em Gherkin
 Feature: Login de usuário
 
@@ -74,6 +76,8 @@ Feature: Login de usuário
     When ele preenche o usuário e a senha válidos
     And clica no botão de login
     Then ele deve ver a mensagem de boas-vindas
+
+---
 
 ## 🔎 Exemplo de Step Definition (Java + Selenium)
 package stepDefinitions;
@@ -111,21 +115,29 @@ public class LoginSteps {
     }
 }
 
+---
+
 ## ▶️ Executando os Testes
-# Java + Maven
+### Java + Maven
 mvn test
 
-# JS + Node (Cucumber + Playwright)
+### JS + Node (Cucumber + Playwright)
 npx cucumber-js
 
+---
+
 ## ✅ Boas Práticas
-Dica	Explicação
-Separar features por módulo	Organização e manutenção facilitada
-Reutilizar steps	Evita duplicação e aumenta consistência
-Page Object Model	Facilita manutenção dos seletores de elementos
-Evitar lógica complexa no Gherkin	Cenários devem ser claros e legíveis
-Usar tags	Executar testes específicos (@login) ou grupos de testes
-Integrar com CI/CD	Automação completa e relatórios automáticos
+| Dica                                | Explicação                                                |
+|-------------------------------------|-----------------------------------------------------------|
+| Separar features por módulo         | Organização e manutenção facilitada                       |
+| Reutilizar steps                    | Evita duplicação e aumenta consistência                   |
+| Page Object Model                   | Facilita manutenção dos seletores de elementos            |
+| Evitar lógica complexa no Gherkin   | Cenários devem ser claros e legíveis                      |
+| Usar tags                           | Executar testes específicos (@login) ou grupos de testes  |
+| Integrar com CI/CD                  | Automação completa e relatórios automáticos               |
+
+---
+
 ## 🔮 Funcionalidades Avançadas
 
 ✅ Hooks: @Before e @After para setup e teardown;  
@@ -162,5 +174,6 @@ Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exempl
 ## 📝 Licença
 
 - Este projeto está licenciado sob a MIT License.
+
 
 
